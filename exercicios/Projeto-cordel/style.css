@@ -1,0 +1,16 @@
+@charset "UTF-8"
+;
+header{
+    background-color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: white;
+    padding: 15px;
+    margin: -15px;
+    font-size: 22px;
+}
+main p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    padding: 18px;
+}
