@@ -3,6 +3,9 @@
     font-family: "neonrec";
     src: url(Neonrec.otf);
 }
+body{
+    height: 1100px;
+}
 header h1 {
     text-align: center;
     color: white;
@@ -46,6 +49,9 @@ nav {
 nav h3 :hover {
     color: white;
     background-color: rgb(255, 0, 0);
+}
+nav a {
+    transition-duration: 1s;
 
 }
 .tudo {
@@ -69,7 +75,7 @@ div.musica {
     background-repeat: no-repeat;
     color: white;
 box-shadow: 8px black;
-border: 3px;
+border: 3px solid black;
 border-radius: 5px;
 background-color: rgba(0, 0, 0, 0.475);
 }
@@ -88,7 +94,7 @@ div.Cinema{
     background-position: right;
     display: inline-block;
     text-align: center;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 div.Cinema h2{
     background-color: rgba(0, 0, 0, 0.492);
@@ -99,15 +105,67 @@ div.Cinema h3{
     color: white;
 }
 aside {
-    height: 500px;
+    height: 650px;
     width: 300px;
     float: right;
-    background-color: wheat;
+    background-image: linear-gradient(orange,blue,purple);
+    border: 3px solid purple;
+    color: white;
 }
 aside h2 {
     text-align: justify;
     background-color: brown;
     padding: 8px;
     margin: 5px;
+    color: white;
+}
+aside ol :hover {
+    color: green;
+}
+aside a {
+    color: white;
+}
+aside :visited{
+    color: greenyellow;
+}
+div.games{
+    background-image: url(imagens/1024px-Fran_Hevia_Se_me_hizo_facil_single.jpg);
+    height: 300px;
+    width: 300px;
+    background-position: center left;
+    text-align: center;
+}
+div.games {
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    border: 2px solid black;
+}
+div.foot1 { 
+
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(green, blue, purple);
+    padding: 3px;
+    margin: 0px 170px;
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+
+}
+div.foot2 {
+    color: rgb(0, 0, 0);
+    height: 200px;
+    width: 650px;
+    margin: -105px 170px 150px;
+    float: right;
+    background-color: rgb(88, 83, 83);
+    text-align: start;
+    float: right;
+    display: inline-block;
+}
+div.img1 {
+float: right;
+background-color: rgb(77, 72, 72);
+height: 200px;
 }
 
