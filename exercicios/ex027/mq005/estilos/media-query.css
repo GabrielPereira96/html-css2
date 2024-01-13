@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@media  and (min-width: 768px) {
+    #burger {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+}

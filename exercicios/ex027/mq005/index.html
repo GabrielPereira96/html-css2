@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudoutamanho()">
+
+<header>
+  <h1>Meu Site</h1>
+  <div class="menu-icon" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </div>
+  <nav class="menu">
+    <ul>
+      <li><a href="#">Opção 1</a></li>
+      <li><a href="#">Opção 2</a></li>
+      <li><a href="#">Opção 3</a></li>
+      <li><a href="#">Opção 4</a></li>
+      <li><a href="#">Opção 5</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script>
+  function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('open');
+
+  }
+  function mudoutamanho() {
+    if (window.innerwidth >= 768) {
+      itens.style.display = 'block'
+    } else {
+      itens.style.display = 'none'
+    }
+  }
+</script>
+
+</body>
+</html>
+
+      
